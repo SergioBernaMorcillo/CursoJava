@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: courses
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
+      server:
+        git:
+          default-label=main: main
